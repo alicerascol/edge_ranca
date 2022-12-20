@@ -192,13 +192,13 @@ User Styles
 .clearfix { *zoom: 1; }
 .pullcontainer a#pull { display: none; }
 a { color: #282f35; -webkit-transition: all .25s ease; -moz-transition: all .25s ease; -ms-transition: all .25s ease; -o-transition: all .25s ease; transition: all .25s ease; }
-a:hover { color: #5734f5; text-decoration: none; }
+a:hover { color: #4416db; text-decoration: none; }
 p { text-align: center; font-size: 14px; color: #848789; font-weight: 300; word-spacing: 2px; line-height: 1.8em; margin-top: 25px; }
 ul { text-align: left; font-size: 14px; color: #848789; font-weight: 300; word-spacing: 2px; line-height: 1.8em; margin-top: 25px; }
 p.text-intro, ul.text-intro{ font-size: 18px; }
-.hero { background: url(../img/cover.png) no-repeat top center #f4f5fc; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 685px; }
+.hero { background: url(../img/cover_edge_2.png) no-repeat top center #f4f5fc; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 900px; }
 nav { height: 85px; margin-top: 30px; position: relative; }
-.logo-holder { background: url(../img/logo_edge_rental.png) no-repeat center center; width: 94px; height: 85px; position: absolute; top: 0; left: 327px; }
+.logo-holder { background: url(../img/logo_edge_ranca.png) no-repeat center center; width: 108px; height: 120px; position: absolute; top: 0; left: 345px; }
 .responsive-logo { display: hidden; }
 header { background-color: #f4f5fc; }
 header ul { padding-top: 35px; }
@@ -206,10 +206,7 @@ header ul li { list-style: none; float: left; text-transform: uppercase; letter-
 header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 .r_spacer { margin-right: 110px; }
 .intro { padding: 115px 0; background-color: #fbfbfb; }
-.section-1 { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
-.section-2 { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
-.section-3 { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
-.section-4 { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
+.section-img { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
 .section-text { position: relative; height: 600px; }
 .nopadding { padding: 0 !important; margin: 0 !important; }
 .thin-sep { height: 1px; background-color: #d7d7d7; width: 50px; margin: 8% auto 0 auto; }
@@ -230,25 +227,24 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 .right-box-2 { width: 50%; float: left; }
 .right-box-3 { width: 50%; float: right; }
 .right-box-3 img, .right-box-2 img, .right-box-1 img { width: 100%; }
-.effects { background-color: #282f35; }
 .effects .img { position: relative; }
 .effects .img img { display: block; margin: 0; padding: 0; max-width: 100%; height: auto; }
 .overlay { z-index: 10 }
 a.close-overlay { display: block; position: absolute; top: 0; right: 0; z-index: 20; width: 45px; height: 45px; font-size: 20px; font-weight: 700; color: #fff; line-height: 45px; text-align: center; background-color: #000; cursor: pointer; }
 a.close-overlay.hidden { display: none }
-#effect .overlay { position: absolute; display: block; top: 0; bottom: 0; left: 0; right: 0; background: rgb(84 45 208 / 80%); opacity: 0; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -ms-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
+#effect .overlay { position: absolute; display: block; top: 0; bottom: 0; left: 0; right: 0; background: rgba(22, 11, 224, 0.8); opacity: 0; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -ms-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
 #effect .overlay a.expand { position: absolute; left: 0; right: 0; top: 0; content: ""; margin: 0 auto; border-radius: 30px; text-align: center; color: #fff; line-height: 50px; font-weight: 600; font-size: 14px; opacity: 0; text-transform: uppercase; letter-spacing: 3px; padding-top: 25px; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -ms-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; display: block; }
 #effect .overlay p.expand { position: absolute; left: 0; right: 0; top: 0; content: ""; margin: 0 auto; border-radius: 30px; text-align: center; color: #fff; font-size: 14px; opacity: 0; text-transform: uppercase; letter-spacing: 3px; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -ms-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; display: block; }
 #effect .img { overflow: hidden }
 #effect .img.hover .overlay { opacity: 1 }
 #effect .img.hover .overlay a.expand { top: 50%; margin-top: -30px; opacity: 1; }
 #effect .img.hover .overlay p.expand { top: 50%; margin-top: -30px; opacity: 1; }
-.discover { background-color: #5734f5; padding: 70px 0; text-align: center; }
+.discover { background-color: #4416db; padding: 70px 0; text-align: center; }
 .shop-btn { border: solid 1px #bbb; padding: 15px 50px; color: #fff; text-transform: uppercase; letter-spacing: 3px; font-weight: 400; }
-.shop-btn:hover, .shop-btn:focus { border: solid 1px #5734f5; }
+.shop-btn:hover, .shop-btn:focus { border: solid 1px #4416db; }
 .sign-up { text-align: center; }
 .signup-input { border: solid 1px #d3d7d9; padding: 25px; width: 65%; color: #929292; font-style: italic; letter-spacing: 1px; }
-.submit-btn { background-color: #5734f5; color: #fff; border: solid 1px #5734f5; font-weight: 300; padding: 25px 50px; }
+.submit-btn { background-color: #4416db; color: #fff; border: solid 1px #4416db; font-weight: 300; padding: 25px 50px; }
 section.sign_up { padding: 40px 0 110px 0; }
 footer { background-color: #f7f7f7; padding: 100px 0; }
 footer p { font-size: 13px; margin: 0; }
